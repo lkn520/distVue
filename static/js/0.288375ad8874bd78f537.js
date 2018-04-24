@@ -324,7 +324,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       var _this = this;
 
       var gid = this.$route.params.gallery_id;
-      this.$http.jsonp('http://tu.duowan.com/index.php?r=show/getByGallery', { params: { gid: gid } }).then(function (response) {
+      this.$http.jsonp('https://tu.duowan.com/index.php?r=show/getByGallery', { params: { gid: gid } }).then(function (response) {
         _this.images = response.data.picInfo;
         _this.$nextTick(function () {
           _this.$refs.rdSwipe.init();
@@ -1175,4 +1175,4 @@ class CovTouch {
 
 /***/ })
 ]));
-//# sourceMappingURL=0.c708e9e267281ed6b300.js.map
+//# sourceMappingURL=0.288375ad8874bd78f537.js.map
